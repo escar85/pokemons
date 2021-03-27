@@ -1,0 +1,10 @@
+export const GET_POKEMONS_START = 'pokemons/GET_POKEMONS_START'
+export const GET_POKEMONS_SUCCESS = 'pokemons/GET_POKEMONS_SUCCESS'
+export const GET_POKEMONS_FAILURE = 'pokemons/GET_POKEMONS_FAILURE'
+
+export const GET_POKEMON_INFO_START = 'pokemons/GET_POKEMON_INFO_START'
+export const GET_POKEMON_INFO_SUCCESS = 'pokemons/GET_POKEMON_INFO_SUCCESS'
+export const GET_POKEMON_INFO_FAILURE = 'pokemons/GET_POKEMON_INFO_FAILURE'
+
+export const SHOW_LOADER = 'app/SHOW_LOADER'
+export const HIDE_LOADER = 'app/HIDE_LOADER'
