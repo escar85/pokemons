@@ -35,7 +35,7 @@ const Pokemon = (props) => {
           <button
             type="button"
             onClick={() => getPokemonInfo(pokemon.id)}
-            className="btn btn-info"
+            className="btn btn-info mt-2"
           >
             Обновить
           </button>
