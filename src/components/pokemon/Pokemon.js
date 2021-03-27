@@ -19,7 +19,6 @@ const Pokemon = (props) => {
       {url.pathname === "/" ? (
         <Link
           to={`/details/${pokemon.id}`}
-          type="button"
           onClick={() => getPokemonInfo(pokemon.id)}
           className="btn btn-info"
         >
@@ -33,6 +32,13 @@ const Pokemon = (props) => {
           <Link to="/" className="btn btn-primary">
             На главную
           </Link>
+          <button
+            type="button"
+            onClick={() => getPokemonInfo(pokemon.id)}
+            className="btn btn-info"
+          >
+            Обновить
+          </button>
         </>
       )}
     </div>
