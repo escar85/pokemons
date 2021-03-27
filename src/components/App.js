@@ -5,7 +5,7 @@ import PokemonInfo from './pokemonInfo/PokemonInfo'
 const App = () => {
   return (
     <Switch>
-      <Route exact path="/">
+      <Route exact path="/pokemons">
         <Pokemons />
       </Route>
       <Route path='/details/:id'>
