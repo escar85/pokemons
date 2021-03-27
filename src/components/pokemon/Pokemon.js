@@ -16,7 +16,7 @@ const Pokemon = (props) => {
       <div className="card-body">
         <h4 className="card-title text-center">{pokemon.name}</h4>
       </div>
-      {url.pathname === "/pokemons" ? (
+      {url.pathname === "/pokemons/" ? (
         <Link
           to={`/details/${pokemon.id}`}
           onClick={() => getPokemonInfo(pokemon.id)}
@@ -29,7 +29,7 @@ const Pokemon = (props) => {
           <p className="card-text">HP: {pokemon.hp}</p>
           <p className="card-text">Artist: {pokemon.artist}</p>
           <p className="card-text">Series: {pokemon.series}</p>
-          <Link to="/pokemons" className="btn btn-primary">
+          <Link to="/pokemons/" className="btn btn-primary">
             На главную
           </Link>
           <button
